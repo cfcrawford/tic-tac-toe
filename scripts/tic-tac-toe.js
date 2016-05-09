@@ -1,13 +1,31 @@
-/* var button = document.getElementById("your-button-id");
-button.onclick = function(){
-  //do stuff
+
+
+var squares = document.getElementsByTagName("td");
+
+
+function addEventListener(){
+  for (var i = 0; i < squares.length; i++) {
+    squares[i].addEventListener("click", changeColor);
+  }
 }
-  alert('Welcome to Tic Tac Toe'); */
 
-document.getElementById("one").onclick = changeColor;
-
-    function changeColor() {
-        document.body.style.color = "purple";
-        return false;
+function changeColor(square) {
+    counter = 0;
+   for (var i = 0; i < squares.length; i++){
+    if ((counter % 2) === 0) {
+      square.style.background = 'red';
+      square.innerHTML = "X";
+      counter += 1;
     }
-    changeColor();
+    else {
+      square.style.background = 'blue';
+      square.innerHTML = "O";
+    }
+  }
+}
+
+
+function resetGrid(squares) {
+  boxes.style.background = 'white';
+  boxes.innerHTML = " "
+}
