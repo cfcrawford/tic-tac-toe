@@ -13,6 +13,7 @@
 }
 
 table {
+  position: relative;
   right: 100px;
   background-color: #FFFFFF;
 
@@ -27,11 +28,19 @@ td {
   width: 150px;
   text-align: center;
 }
+
+.wrapper {
+  text-align: center;
+}
+
 .button {
+  position: relative;
   font-size: 12px;
-  padding: 40px;
+  padding: 20px;
   border: 2px solid black;
+  border-radius: 2px;
   background-color: #FFFFFF;
+  top: 50%;
 }
 
 
@@ -43,58 +52,3 @@ td {
   border-left: 2px solid black;
 }
 
-#one {
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-}
-
-#two {
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-}
-#three {
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-}
-#four {
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-}
-#five {
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-}
-#six {
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-}
-#seven {
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-}
-#eight {
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-}
-#nine {
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-}
