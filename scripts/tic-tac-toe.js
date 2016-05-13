@@ -25,9 +25,34 @@ function changeSquare() {
   }
 }
 
+function getSquare(number) {
+  return document.getElementById("square" + number).innerText;
+  alert("this workds")
+}
+
+function getWinner() {
+  if {([1, 2, 3] || [4,5,6] || [7,8,9]) ||
+    ([1, 4, 7] || [2, 5, 8] || [3, 5, 9]) ||
+    ([1, 5, 9] || [3, 5, 7])
+    alert("You are the winner!")
+  }
+  else {
+    alert("No winner found.")
+  }
+};
 
 
-/*
+/*function getWinner() {
+  if (getSquare === 1 && getSquare === 2 $$ getSquare === 3) ||
+    (getSquare === 4 && getSquare === 5 $$ getSquare === 6) ||
+    (getSquare === 7 && getSquare === 8 $$ getSquare === 9) ||
+    (getSquare === 1 && getSquare === 4 $$ getSquare === 3) ||
+    (getSquare === 1 && getSquare === 2 $$ getSquare === 3) ||
+    (getSquare === 1 && getSquare === 2 $$ getSquare === 3) ||
+    (getSquare === 1 && getSquare === 2 $$ getSquare === 3) ||
+}
+
+
 This function changes the color of a single square when you click on it more than once:
 
 
